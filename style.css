@@ -1,16 +1,17 @@
 body {
-  background-color: greenyellow;
+  background-color: #8ad617;
 }
 
 .rating {
-  margin-top: 100px;
+  margin: 100px 25px;
   display: flex;
   justify-content: center;
+  background-color: #b3de72;
 }
 
 .item {
   background-color: rgb(174, 178, 189);
-  mask-image: url('estrella.svg');
+  mask-image: url("estrella.svg");
   mask-size: cover;
   mask-repeat: no-repeat;
   width: 50px;
