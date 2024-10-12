@@ -32,6 +32,6 @@ document.querySelectorAll('.item').forEach(item => {
         cuadro.classList.add('item-full');
       }
     }
-    CurrentValue = parseInt(pos) + 1;
+    CurrentValue === parseInt(pos) + 1;
   });
 });
